@@ -16,7 +16,7 @@ WORKDIR /var/www
 COPY . .
 
 # Jalankan composer install
-RUN composer install --no-dev --optimize-autoloader
+RUN composer install --optimize-autoloader
 
 # Beri izin ke folder storage dan bootstrap/cache
 RUN chmod -R 777 storage bootstrap/cache
