@@ -11,7 +11,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'github-token',
-                    url: 'https://github.com/andrewwanda04/praktikum2-app.git'
+                    url: 'https://github.com/andrewwanda04/praktikum_cloud_2_app.git'
             }
         }
 
